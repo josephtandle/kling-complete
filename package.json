@@ -1,0 +1,16 @@
+{
+  "name": "kling-complete",
+  "version": "1.0.0",
+  "description": "Complete Kling AI video generation MCP server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^4.18.0",
+    "node-fetch": "^2.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "zod": "^3.22.0"
+  }
+}

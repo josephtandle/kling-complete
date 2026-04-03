@@ -1,0 +1,21 @@
+name: kling-complete
+display_name: "Kling Complete"
+description: "Complete Kling AI MCP server. Generate videos from text or images, track generation status, extend videos, and manage your entire Kling workflow — all from your AI assistant."
+tagline: "Stop manually submitting Kling video jobs."
+version: 1
+runtime: typescript
+env:
+  - name: KLING_API_KEY
+    description: Kling AI API key
+    required: true
+  - name: KLING_API_SECRET
+    description: Kling AI API secret
+    required: false
+tags:
+  - kling
+  - ai-video
+  - video-generation
+  - text-to-video
+  - image-to-video
+  - generative-ai
+  - automation
